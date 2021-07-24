@@ -1,8 +1,8 @@
 # Fikrnot
 
-# Workflwow:
+# Workflow:
 The homepage has several sections along with a conversational chatbot located on the bottom right corner of the screen
-# The chatbot can be opened or closed by clicking on its circular icon. Buttons on navigation bar named as "signup"/"login" etc, open up the chatbot, prompting user to do mini actions of singup login or accessing information about services through chatbot.
+ The chatbot can be opened or closed by clicking on its circular icon. Buttons on navigation bar named as "signup"/"login" etc, open up the chatbot, prompting user to do mini actions of singup login or accessing information about services through chatbot.
 
 #The 404 page can be accessed by adding /404.html to the original netlify url. fikrnotnexus.netlify.com/404.html to be exact. 
 
