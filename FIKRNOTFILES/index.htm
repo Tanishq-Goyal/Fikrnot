@@ -1,0 +1,275 @@
+<!-- FIKR.NOT Banking Interface-->
+<!-- Tanishq Goyal-->
+<!-- For NEXUS-->
+<!-- Team : Tanishq Goyal, DPS Gr Noida-->
+<!-- INDEX CODE-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FIKR.NOT</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Latest Banking Interface keeping pace with the requirements of today's youth and ever changing technology.">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="Resources/grid.css">
+	<link rel="stylesheet" href="Resources/normalize.css">
+	<link rel="stylesheet" href="Resources/style.css">
+	<link rel="stylesheet" href="Resources/queries.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="Resources/favicon.png">
+
+<!-- not required now, make changes and update c-code=10202020
+	<link rel="apple-touch-icon" sizes="180x180" href="/Resources/Favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/Resources/Favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/Resources/Favicon/favicon-16x16.png">
+	<link rel="manifest" href="/Resources/Favicon/site.webmanifest">
+	<link rel="mask-icon" href="/Resources/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/Resources/Favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/Resources/Favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+-->
+</head>
+<body>
+
+	<header>
+<video playsinline autoplay muted loop id="bgvid">
+  <source src="polina.webm" type="video/mp4">
+  <source src="Resources/royaltyfreevideo.mp4" type="video/mp4">
+</video>
+		<nav>
+			<div class="row clearfix">
+				<img src="logov3.png" alt="logo white" class="logo">
+				<ul class="navigation js--navigation">
+					<li>
+						<a href="#services">
+							Services
+						</a>
+					</li>
+					<li>
+						<a href="#about">About Us</a>
+					</li>
+					<li>
+						<a href="#sectionjuniorwallet">Junior E-Wallet</a>
+					</li>
+					<li>
+						<a href="#" onclick="funcbotappear()">Login</a>
+					</li>
+					<li>
+						<a href="#signup" onclick="funcbotappear()">Sign Up</a>
+					</li>
+				</ul>
+			</div>
+			<a class="nav-icon js--nav-icon">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</a>
+		</nav>
+<!-- SP Heading Disabled 
+<div class="heading-sp">
+<h1>
+            <span> F </span>
+            <span> I </span>
+            <span> K </span>
+            <span> R  </span>
+     <span> </span>       <span> N </span>
+            <span> O </span>
+            <span> T </span>
+        </h1>
+ </div> -->
+		<div class="row hero-text">
+			<h1><span>Banking</span> made fun...</h1>
+
+			<p>Latest Interface for youth to make banking flawless!</p>
+			<a href="#sectionjuniorwallet" class="btn btn-primary">Start Banking</a>
+			<a href="#about" class="btn btn-ghost">Explore </a>
+		</div>
+
+	</header><br><br><br>
+<br>
+<section class="about" id="about">
+<h3>About Us</h3>
+<p>Fikr Not is first of its kind online banking interface designed for young generation. We are not a bank, but an interface.
+   We act as an interface between all banks and you to make your banking hasslefree. With Fikr Not, you need not worry about
+  your bank accounts and other banking processes. You can manage all your bank accounts and all other basic banking services of your bank on our platform even without going to bank.
+     You can also use our E-Wallet to pay anywhere, anytime. With 24/7 chat/call support and 18/7 live video support we make banking as effortless as possible.
+      <br><br>With our services, you can compare policies, insurance, interests, account schemes of different banks and choose the one that suits you best.</p>
+	<br><br><p>
+	Our Junior E-wallet, designed for teenagers below 18, works on the credit prinicple. Each wallet has monthly limit of Rs 10,000, which is provided by us. 
+ 	At end of the month, the money used in the month is automatically taken from the parent's account that is linked. Parents can set the limit and other settings as they wish too.
+	The system of credit e-wallet instead of regular topup e-wallet provides major security against thefts so that if any theft happens, not more 10K can be looted. These can also be recovered if informed in time.
+</p><br><br>
+
+</section>
+
+<br><br><br>
+<section class="kidwallet-row" id="sectionjuniorwallet">
+<br><br>
+   <div class="kidwallet-desc">
+<br><br>
+	<h2>The Easiest and Most Powerful Kids E-Wallet</h2>
+		<button id="ewallet-signup">Sign up</button>
+	 	<button id="ewallet-know">Know more..</button>
+	<h3 onclick="funcopen()">Fully Secure</h3>
+		<p id="walldesc">Advanced Face Recognition, Location Tracing, Pin generation and triple security check makes it 
+				protected from most potential threats.</p>
+	<h3 onclick="funcopen1()">Do within seconds</h3>
+		<p id="walldesc1">Set up a Junior E-Wallet within seconds. If the parent is registered then opening a Junior Wallet is a work of few seconds. With our guides and kid friendly app, we make it easy for kids to
+				learn process of banking from an early age.</p>
+	<h3 onclick="funcopen2()">Notification on Parents' Mobile</h3>
+		<p id="walldesc2">During each transaction, a notification goes to the parents' device through which they can see the details of the payment and location. Through this, they can also get 
+					to know the location of their kids.</p>
+   </div>
+
+		<div class="kidwallet-pics">
+			<img src="wallet.png" alt="Kids E-wallet" class="e-wallet-image1" id="e-wallet-image1" >
+			<img src="wallet2.png" alt="Kids E-wallet" class="e-wallet-image2" id="e-wallet-image2">
+			<img src="wallet3.png" alt="Kids E-wallet" class="e-wallet-image3" id="e-wallet-image3">
+		</div>
+
+</section>
+<br><br>
+
+<section class="unifysection" id="unifysection">
+<br><br>
+   <div class="unify-desc">
+<br><br>
+	<h2>UNIFY - All your banks at one place</h2>
+	<h3 onclick="funcopen()">All accounts unified</h3>
+		<p id="unifydesc">Now you don't need to manage each account of each bank separately. We help you manage
+				all accounts, credit/debit cards, policies, insurances, payments of different banks at one single easy platform.</p>
+	<h3 onclick="unifyopen1()">Instant Credit</h3>
+		<p id="walldesc1">Get upto Rs. 5 lac of Instant Credit if you are a startup, youth, college student, MSME. You just need to signup for our services.</p>
+	<h3 onclick="funcopen2()">Comparison of banks</h3>
+		<p id="unifydesc2">With UNIFY, compare policies, offers and other services of all banks and choose the best one for you with our AI driven system.</p>
+   </div>
+
+		<div class="unify-pics"><br><br><br>
+			<img src="unify2.png" alt="UNIFY" class="unifypic" id="unifypic" >
+		</div>
+
+</section>
+<br><hr><br>
+
+
+<br><br><br>
+<section class="demotrade-row">
+<br><br>
+   <div class="demotrade-desc">
+<br><br>
+	<h2>Latest Virtual Stock Trading</h2>
+	
+	<h3 onclick="tradeopen()">Risk Free Trading</h3>
+		<p id="tradedesc">Entering the Indian stock market can be a tedious job for beginners. 
+		Further, as stock market trading involves market risk, you can always lose some money— especially, when you are a beginner.</p>
+	<h3 onclick="tradeopen1()">Real time data</h3>
+		<p id="tradedesc1">When you register in this stock simulator, you will get virtual money (Say Rs 10 lakhs or 1 Crore) in your account. 
+				You can use this money to practice trading. Stock simulators provide real-time stock data, which means that you 
+				can try out different strategies of trading in stocks just like the real world stock market, but risk-free.</p>
+	<h3 onclick="tradeopen2()">Beginners’ guides and videos</h3>
+		<p id="tradedesc2">Free guides and tips from market experts and daily updates of markets at your screen.
+					Get to know about ups and downs in real market before investing your hard earned money.</p>
+	<h3 onclick="tradeopen3()">National and Internation Markets</h3>
+		<p id="tradedesc3">With our association with Trading.com, Forex.com Demo Trade,TrackInvest, NSE, BSE and other 
+				banks & companies, we give you the privilege to test your strategies on all kinds of Shares and that too risk-free. 
+	 			Once you get familiar with demo trading you are always free to do real trading!  </p>
+     	<h3 onclick="tradeopen4()">For All Ages</h3>
+		<p id="tradedesc4">For a real Demat Account you need to be more than 18 years old, but virtual trading doesn't has any such specific age limit. 
+				Even school teens can get a experience of ups and downs of real market.</p>
+	
+ </div>
+
+		<div class="demotrade-pics">
+			<img src="demotrade.png" alt="Kids E-wallet" class="trade-image" id="trade-image" >
+		</div>
+
+</section>
+<br><br><br>
+
+<!--Slideshow  Mobile Interface  -->
+<h3 id="apphead">Mobile Interface</h3>
+ <div id="slide" style="align:center;">
+  <div class="slideshow-container" >
+    <div class="mySlides fade"> <img src="x - 3.png"> </div>
+    <div class="mySlides fade"> <img src="videosupport.png" > </div>
+    <div class="mySlides fade"> <img src="x - 4.png"> </div>
+    <div class="mySlides fade"> <img src="x - 9.png"> </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
+  <br>
+  <div style="text-align:center"> 
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+   </div>
+<br><br><br>
+<br>
+<footer>
+		<div class="row">
+			<div class="col span-1-of-3">
+				<h3><center>Phone</center></h3>
+				<p class="text-primary">(+91) 123 456 789</p>
+				<h3><center>Toll Free No.</center></h3>
+				<p class="text-primary">1800 123 456 000</p>
+			</div>
+			<div class="col span-1-of-3">
+				<h3><center>Email</center></h3>
+				<p class="text-primary">contact@fikrnot.com</p>
+				<p class="text-primary">support@fikrnot.com</p>
+				<p class="text-primary">report@fikrnot.com</p>
+				<p class="text-primary">sales@fikrnot.com</p>
+				<p class="text-primary">tanishqgoyalofficial@gmail.com</p>
+			</div>
+			<div class="col span-1-of-3">
+				<h3><center><img src="digitalindia.png" height="70" width="160"></center></h3>
+				<p class="text-primary">
+					FikrNot platform is made in India for the world. <br> Courtesy: Tanishq Goyal
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<hr>
+		</div>
+
+		<div class="row">
+			<ul>
+				<li>
+					<a href="#">
+						<i class="fa fa-twitter icon-social" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fa fa-facebook-official icon-social" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fa fa-instagram icon-social" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fa fa-google-plus icon-social" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="credits-box">
+			<p class="text-primary">
+				© 2021 Fikr.Not. All rights reserved.
+			</p>
+		</div>
+	</footer>
+<div class="bothelp">
+<img src="botface.png" class="botface" onclick="funcbotappear()">
+<iframe src="fikrnotbot.html" id="chatbot" >
+</iframe>
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="Resources/js/jquery.waypoints.min.js"></script>
+	<script src="Resources/js/script.js"></script>
+</body>
+</html>
